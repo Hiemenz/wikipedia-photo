@@ -1,0 +1,2 @@
+photo_path: "Wikipedia_POTD"  # Destination folder for saving images
+e_ink_dimensions: [800, 480]  # Dimensions for E Ink display (landscape format)

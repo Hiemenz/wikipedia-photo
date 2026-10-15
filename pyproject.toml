@@ -1,0 +1,12 @@
+[project]
+name = "wikipedia-photo"
+version = "0.1.0"
+description = "Show Wikipedia's Picture of the Day on a Waveshare 7.5in e-ink display"
+requires-python = ">=3.11"
+dependencies = ["beautifulsoup4>=4.12.3", "requests>=2.32.3", "pillow>=11.1.0", "pyyaml>=6.0.2"]
+
+[project.optional-dependencies]
+eink = ["hiemenz-utils[eink] @ git+https://github.com/Hiemenz/hiemenz-utils.git"]
+
+[tool.uv]
+package = false
